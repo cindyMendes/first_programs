@@ -1,7 +1,7 @@
 puts "Enter a number of years: "
 years = gets.chomp.to_i
 hours = years * 365 * 24
-#hours = hours.to_s
+hours = hours.to_s
 puts "There are #{hours} hours in #{years} years."
 
 
